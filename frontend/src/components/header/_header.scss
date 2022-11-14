@@ -13,6 +13,12 @@
     align-items: center;
     column-gap: 1rem;
 
+    &__logo {
+      font-family: var(--body-font-title);
+      font-weight: var(--font-normal);
+      font-size: 22px;
+    }
+
     &__logo,
     &__toggle {
       color: var(--title-color);
