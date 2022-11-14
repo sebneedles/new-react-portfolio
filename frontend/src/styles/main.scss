@@ -1,0 +1,11 @@
+// Utils
+@import './utils/variables';
+@import './utils/normalize';
+
+// Components
+@import '../components/header/header';
+@import '../components/nav/nav';
+@import '../components/footer/footer';
+
+// Pages
+@import '../pages/home/home';
