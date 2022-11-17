@@ -9,7 +9,7 @@ const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="fab fa-linkedin"></i>
+        <i className="fab fa-linkedin"></i>
       </a>
       <a
         href="https://github.com/sebneedles"
@@ -17,7 +17,7 @@ const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="fab fa-github-square"></i>
+        <i className="fab fa-github-square"></i>
       </a>
     </div>
   );

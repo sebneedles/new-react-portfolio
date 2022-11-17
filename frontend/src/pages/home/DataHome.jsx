@@ -12,7 +12,7 @@ const Data = () => {
         mon job.
       </p>
       <a href="#contact" className="button button--flex">
-        Bonjour <i class="fas fa-link button__icon"></i>
+        Bonjour<i className="fas fa-paper-plane button__icon"></i>
       </a>
     </div>
   );

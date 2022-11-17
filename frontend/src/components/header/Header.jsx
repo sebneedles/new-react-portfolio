@@ -14,43 +14,43 @@ const Header = () => {
           <ul className="nav__list grid">
             <li className="nav__item">
               <a href="index.html" className="nav__link active-link">
-                <i class="fas fa-home-lg-alt nav__icon"></i> Home
+                <i className="fas fa-home-lg-alt nav__icon"></i> Home
               </a>
             </li>
 
             <li className="nav__item">
               <a href="about.html" className="nav__link">
-                <i class="fas fa-user nav__icon"></i> About
+                <i className="fas fa-user nav__icon"></i> About
               </a>
             </li>
 
             <li className="nav__item">
               <a href="skills.html" className="nav__link">
-                <i class="fas fa-file-code nav__icon"></i> Skills
+                <i className="fas fa-file-code nav__icon"></i> Skills
               </a>
             </li>
 
             <li className="nav__item">
               <a href="portfolio.html" className="nav__link">
-                <i class="fas fa-image nav__icon"></i> Portfolio
+                <i className="fas fa-image nav__icon"></i> Portfolio
               </a>
             </li>
 
             <li className="nav__item">
               <a href="contact.html" className="nav__link">
-                <i class="fas fa-paper-plane nav__icon"></i> Contact
+                <i className="fas fa-paper-plane nav__icon"></i> Contact
               </a>
             </li>
           </ul>
 
           <i
-            class="fas fa-times nav__close"
+            className="fas fa-times nav__close"
             onClick={() => showMenu(!Toggle)}
           ></i>
         </div>
 
         <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
-          <i class="fas fa-bars"></i>
+          <i className="fas fa-bars"></i>
         </div>
       </nav>
     </header>
