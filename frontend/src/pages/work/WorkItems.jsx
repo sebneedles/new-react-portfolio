@@ -6,7 +6,7 @@ const WorkItems = ({ item }) => {
       <img src={item.image} alt={item.title} className="work__img" />
       <h3 className="work__title">{item.title}</h3>
       <a href="index.html" className="work__button">
-        Démo <i className="fas fa-arrow-right work__button-icon"></i>
+        Découvrir <i className="fas fa-arrow-right work__button-icon"></i>
       </a>
     </div>
   );

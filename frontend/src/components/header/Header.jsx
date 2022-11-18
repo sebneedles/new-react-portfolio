@@ -1,43 +1,92 @@
 import React, { useState } from 'react';
 
 const Header = () => {
+  //    Change Background Header
+  window.addEventListener('scroll', function () {
+    const header = document.querySelector('.header');
+
+    if (this.scrollY >= 80) header.classList.add('scroll-header');
+    else header.classList.remove('scroll-header');
+  });
+
   //    Toggle Menu
   const [Toggle, showMenu] = useState(false);
+  const [activeNav, setActiveNav] = useState('#home');
 
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="index.html" className="nav__logo">
+        <a href="/" className="nav__logo">
           Sébastien Pansini
         </a>
         <div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'}>
           <ul className="nav__list grid">
             <li className="nav__item">
-              <a href="index.html" className="nav__link active-link">
-                <i className="fas fa-home-lg-alt nav__icon"></i> Home
+              <a
+                href="#accueil"
+                onClick={() => setActiveNav('#accueil')}
+                className={
+                  activeNav === '#accueil'
+                    ? 'nav__link active-link'
+                    : 'nav__link'
+                }
+              >
+                <i className="fas fa-home-lg-alt nav__icon"></i> Accueil
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="about.html" className="nav__link">
-                <i className="fas fa-user nav__icon"></i> About
+              <a
+                href="#a-propos"
+                onClick={() => setActiveNav('#a-propos')}
+                className={
+                  activeNav === '#a-propos'
+                    ? 'nav__link active-link'
+                    : 'nav__link'
+                }
+              >
+                <i className="fas fa-user nav__icon"></i> A Propos
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="skills.html" className="nav__link">
-                <i className="fas fa-file-code nav__icon"></i> Skills
+              <a
+                href="#competences"
+                onClick={() => setActiveNav('#competences')}
+                className={
+                  activeNav === '#competences'
+                    ? 'nav__link active-link'
+                    : 'nav__link'
+                }
+              >
+                <i className="fas fa-file-code nav__icon"></i> Compétences
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="portfolio.html" className="nav__link">
+              <a
+                href="#portfolio"
+                onClick={() => setActiveNav('#portfolio')}
+                className={
+                  activeNav === '#portfolio'
+                    ? 'nav__link active-link'
+                    : 'nav__link'
+                }
+              >
                 <i className="fas fa-image nav__icon"></i> Portfolio
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="contact.html" className="nav__link">
+              <a
+                href="#contact"
+                onClick={() => setActiveNav('#contact')}
+                className={
+                  activeNav === '#contact'
+                    ? 'nav__link active-link'
+                    : 'nav__link'
+                }
+              >
                 <i className="fas fa-paper-plane nav__icon"></i> Contact
               </a>
             </li>

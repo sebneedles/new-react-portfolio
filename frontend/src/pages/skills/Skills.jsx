@@ -5,7 +5,7 @@ import Design from './Design';
 
 const Skills = () => {
   return (
-    <section className="skills section" id="skills">
+    <section className="skills section" id="competences">
       <h2 className="section__title">Compétences</h2>
       <span className="section__subtitle">Développement</span>
 

@@ -1,5 +1,7 @@
 import React from 'react';
+import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
+import ScrollUp from './components/scrollup/ScrollUp';
 import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
 import Home from './pages/home/Home';
@@ -17,6 +19,8 @@ function App() {
         <Work />
         <Contact />
       </main>
+      <Footer />
+      <ScrollUp />
     </>
   );
 }

@@ -11,8 +11,8 @@ const Data = () => {
         Je suis un développeur frontend basé à Orgon (13), je suis passionné par
         mon job.
       </p>
-      <a href="#contact" className="button button--flex">
-        Bonjour<i className="fas fa-paper-plane button__icon"></i>
+      <a href="#portfolio" className="button button--flex">
+        Voir mes projets<i class="fas fa-code button__icon"></i>
       </a>
     </div>
   );
