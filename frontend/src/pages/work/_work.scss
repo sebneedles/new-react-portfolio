@@ -137,6 +137,8 @@
 @media screen and (max-width: 576px) {
   .work {
     &__filters {
+      flex-wrap: wrap;
+
       .work__item {
       }
       .active-work {
