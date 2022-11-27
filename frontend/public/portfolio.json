@@ -1,0 +1,242 @@
+[
+  {
+    "id": "kasaoc",
+    "image": "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/kasa-1.jpg",
+    "title": "Kasa",
+    "category": ["web", "tout"],
+    "year": "2022",
+    "description": "",
+    "picture": [
+      "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/kasa-1.jpg",
+      "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/kasa-2.jpg",
+      "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/kasa-3.jpg",
+      "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/kasa-4.jpg"
+    ],
+
+    "url": ""
+  },
+  {
+    "id": "hottakesoc",
+    "image": "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/hot-takes-1.jpg",
+    "title": "Hot Takes",
+    "category": ["web", "tout"],
+    "year": "2022",
+    "description": "",
+    "infos": "",
+    "picture": [
+      "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/hot-takes-1.jpg",
+      "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/hot-takes-2.jpg",
+      "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/hot-takes-3.jpg"
+    ],
+
+    "url": ""
+  },
+  {
+    "id": "kanapoc",
+    "image": "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/kanap-1.jpg",
+    "title": "Kanap",
+    "category": ["web", "tout"],
+    "year": "2022",
+    "description": "",
+    "infos": "",
+    "picture": [
+      "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/kanap-1.jpg",
+      "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/kanap-2.jpg",
+      "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/kanap-3.jpg",
+      "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/kanap-4.jpg"
+    ],
+
+    "url": ""
+  },
+  {
+    "id": "panthereoc",
+    "image": "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/panthere-1.jpg",
+    "title": "La Panthère",
+    "category": ["web", "tout"],
+    "year": "2022",
+    "description": "",
+    "infos": "",
+    "picture": [
+      "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/panthere-1.jpg",
+      "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/panthere-2.jpg"
+    ],
+
+    "url": "https://sebneedles.github.io/oc-projet-4/"
+  },
+  {
+    "id": "ohmyfoodoc",
+    "image": "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/ohmyfood-1.jpg",
+    "title": "Oh My Food",
+    "category": ["web", "tout"],
+    "year": "2022",
+    "description": "",
+    "infos": "",
+    "picture": [
+      "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/ohmyfood-1.jpg",
+      "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/ohmyfood-2.jpg"
+    ],
+
+    "url": "https://sebneedles.github.io/oc-projet-3/"
+  },
+  {
+    "id": "bookioc",
+    "image": "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/booki-1.jpg",
+    "title": "Booki",
+    "category": ["web", "tout"],
+    "year": "2022",
+    "description": "",
+    "infos": "",
+    "picture": "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/booki-1.jpg",
+    "url": "https://sebneedles.github.io/oc-projet-2/"
+  },
+  {
+    "id": "ds",
+    "image": "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/defense-security-1.jpg",
+    "title": "Defense & Security",
+    "category": ["web", "tout"],
+    "year": "2020",
+    "description": "Site réalisé sous Wordpress avec un thème personnalisé.",
+    "infos": "Ajout et gestion de tous les produits par catégories / Gestion des actualités / SEO et SEA",
+    "picture": "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/defense-security-1.jpg",
+    "url": "https://www.aplus-defense.com"
+  },
+  {
+    "id": "visionplus",
+    "image": "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/vision-plus.jpg",
+    "title": "Vision [+]",
+    "category": ["web", "tout"],
+    "year": "2019",
+    "description": "Site réalisé sous Wordpress avec un thème personnalisé.",
+    "infos": "Ajout et gestion de tous les produits par catégories / Gestion des actualités / SEO et SEA",
+    "picture": "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/vision-plus.jpg",
+    "url": "https://www.aplus-visionplus.com"
+  },
+  {
+    "id": "aplussa",
+    "image": "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/aplus-sa-1.jpg",
+    "title": "APLUS Système Automation",
+    "category": ["web", "tout"],
+    "year": "2018",
+    "description": "Site réalisé sous Wordpress avec un thème personnalisé.",
+    "infos": "Ajout et gestion de tous les produits par catégories / Gestion des actualités / SEO et SEA",
+    "picture": [
+      "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/aplus-sa-1.jpg",
+      "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/aplus-sa-2.jpg"
+    ],
+
+    "url": "https://www.aplus-sa.com"
+  },
+  {
+    "id": "btb",
+    "title": "Bitebird",
+    "image": "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/bitebird.jpg",
+    "category": ["web", "tout"],
+    "year": "2016",
+    "description": "",
+    "infos": "",
+    "picture": "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/bitebird.jpg",
+    "url": "https://www.bitebird.com"
+  },
+
+  {
+    "id": "tds",
+    "image": "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/transatel-datasim.jpg",
+    "title": "Transatel DataSIM",
+    "category": ["web", "tout"],
+    "year": "2015",
+    "description": "",
+    "infos": "",
+    "picture": "https://raw.githubusercontent.com/sebneedles/my-professionnal-book/main/visuals/web/transatel-datasim.jpg",
+    "url": "https://www.transatel-datasim.com"
+  },
+  {
+    "id": "aplusvoeux",
+    "image": "",
+    "title": "APLUS SA | Voeux 2021",
+    "category": ["social", "tout"],
+    "year": "2020",
+    "description": "",
+    "infos": "",
+    "picture": ""
+  },
+  {
+    "id": "aplusprint",
+    "image": "",
+    "title": "Catalogue APLUS SA",
+    "category": ["print", "tout"],
+    "year": "2021",
+    "description": "",
+    "infos": "",
+    "pictures": ""
+  },
+  {
+    "id": "flyerprint",
+    "image": "",
+    "title": "Flyer | Le Coup de Pouce",
+    "category": ["print", "tout"],
+    "year": "2014",
+    "description": "",
+    "infos": "",
+    "picture": ""
+  },
+  {
+    "id": "mariageprint",
+    "image": "",
+    "title": "Faire Part de Mariage",
+    "category": ["print", "tout"],
+    "year": "2015",
+    "description": "",
+    "infos": "",
+    "picture": ""
+  },
+  {
+    "id": "cdkids",
+    "image": "",
+    "title": "Pochette CD | Motor Kids",
+    "category": ["print", "tout"],
+    "year": "2014",
+    "description": "",
+    "infos": "",
+    "picture": ""
+  },
+  {
+    "id": "cdsaar",
+    "image": "",
+    "title": "Pochette CD | SaaR",
+    "category": ["print", "tout"],
+    "year": "2013",
+    "description": "",
+    "infos": "",
+    "pictures": ""
+  },
+  {
+    "id": "visionmail",
+    "image": "",
+    "title": "Vision [+] | Screen & Wash",
+    "category": ["emailing", "tout"],
+    "year": "2020",
+    "description": "",
+    "infos": "",
+    "picture": ""
+  },
+  {
+    "id": "dsmail",
+    "image": "",
+    "title": "Military Aerospace & Electronics",
+    "category": ["emailing", "tout"],
+    "year": "2021",
+    "description": "",
+    "infos": "",
+    "picture": ""
+  },
+  {
+    "id": "gpumail",
+    "image": "",
+    "title": "Quadro GPU Module",
+    "category": ["emailing", "tout"],
+    "year": "2021",
+    "description": "",
+    "infos": "",
+    "picture": ""
+  }
+]

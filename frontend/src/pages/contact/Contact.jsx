@@ -39,20 +39,6 @@ const Contact = () => {
 
           <div className="contact__info">
             <div className="contact__card">
-              <i className="fas fa-paper-plane contact__card-icon"></i>
-              <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">
-                sebastienpansini@gmail.com
-              </span>
-              <a
-                href="mailto:sebastienpansini@gmail.com"
-                className="contact__button"
-              >
-                M'écrire{' '}
-                <i className="fas fa-arrow-right contact__button-icon"></i>
-              </a>
-            </div>
-            <div className="contact__card">
               <i className="fab fa-linkedin contact__card-icon"></i>
               <h3 className="contact__card-title">Linkedin</h3>
               <span className="contact__card-data">
@@ -61,6 +47,7 @@ const Contact = () => {
               <a
                 href="https://www.linkedin.com/in/sebastien-pansini"
                 className="contact__button"
+                target="_blank"
                 rel="noreferrer"
               >
                 Voir <i className="fas fa-arrow-right contact__button-icon"></i>
@@ -94,7 +81,7 @@ const Contact = () => {
                 name="name"
                 className="contact__form-input"
                 placeholder="Insérez votre Nom"
-                required="true"
+                required
               />
             </div>
             <div className="contact__form-div">
@@ -104,7 +91,7 @@ const Contact = () => {
                 name="email"
                 className="contact__form-input"
                 placeholder="Insérez votre Email"
-                required="true"
+                required
               />
             </div>
             <div className="contact__form-div contact__form-area">
@@ -115,7 +102,7 @@ const Contact = () => {
                 rows="10"
                 className="contact__form-input"
                 placeholder="Votre message"
-                required="true"
+                required
               ></textarea>
             </div>
             <button className="button button--flex">

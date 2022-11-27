@@ -15,15 +15,16 @@
     column-gap: 1rem;
 
     &__logo {
-      font-family: var(--body-font-title);
-      font-weight: var(--font-normal);
-      font-size: 22px;
+      display: flex;
+
+      .monlogo {
+        width: 58px;
+        height: auto;
+      }
     }
 
     &__logo,
     &__toggle {
-      color: var(--title-color);
-      font-weight: var(--font-medium);
     }
 
     &__toggle {
@@ -37,16 +38,21 @@
 
       .nav__list {
         display: flex;
-        column-gap: 2rem;
+        column-gap: 1.5rem;
 
         .nav__item {
           .nav__link {
             display: flex;
             flex-direction: column;
             align-items: center;
-            font-size: var(--small-font-size);
+            font-size: var(--normal-font-size);
             color: var(--title-color);
             transition: 0.3s;
+            border-radius: 0.7rem;
+
+            &:hover {
+              color: var(--primary-color);
+            }
 
             .nav__icon {
               display: none;
@@ -55,7 +61,8 @@
 
           .active-link,
           .nav__link {
-            color: var(--title-color-dark);
+            color: var(--title-color);
+            font-weight: var(--font-thin-normal);
           }
         }
       }
@@ -70,14 +77,27 @@
   transition: 0.2s;
 }
 
+// Endpoints
 //Medium screens
 @media screen and (max-width: 768px) {
   .header {
     top: initial;
     bottom: 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+    border-radius: 1rem 1rem 0 0;
 
     .nav {
       height: var(--header-height);
+
+      &__logo {
+        display: flex;
+
+        .monlogo {
+          width: 40px;
+          height: auto;
+        }
+      }
 
       &__menu {
         position: fixed;

@@ -1,13 +1,13 @@
 .skills {
   &__container {
-    grid-template-columns: repeat(3, 340px);
-    column-gap: 3rem;
+    grid-template-columns: repeat(2, 340px);
+    column-gap: 2rem;
     justify-content: center;
 
     .skills__content {
       background-color: var(--container-color);
       border: 1px solid rgba(0, 0, 0, 0.1);
-      padding: 2rem 4rem;
+      padding: 1.5rem 3rem;
       border-radius: 1.25rem;
 
       .skills__title {
@@ -28,15 +28,15 @@
 
           .skills__data {
             display: flex;
-            column-gap: 0.5rem;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
 
             .skills__name {
               font-size: var(--normal-font-size);
-              font-weight: var(--font-medium);
-              line-height: 18px;
-            }
-            .skills__level {
-              font-size: var(--tiny-font-size);
+              font-weight: var(--font-thin-normal);
+              margin-top: 0.25rem;
             }
           }
         }

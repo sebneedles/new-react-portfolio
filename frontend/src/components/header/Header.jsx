@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Logo from '../../assets/logo.png';
+import CV from '../../assets/cv-sebastien-pansini.pdf';
 
 const Header = () => {
   //    Change Background Header
@@ -17,7 +19,8 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="/" className="nav__logo">
-          Sébastien Pansini
+          <img src={Logo} alt="logo SP" className="monlogo" />
+          {/* Sébastien Pansini */}
         </a>
         <div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'}>
           <ul className="nav__list grid">

@@ -16,6 +16,10 @@
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
+  --primary-color: #fdb930;
+  --primary-color-light: #ffd174;
+  --primary-color-dark: #c88808;
+  --secondary-color: #2a797f;
 
   //Font-Family
   --body-font: 'Poppins', sans-serif;
@@ -32,6 +36,7 @@
   --tiny-font-size: 0.7rem;
 
   //Font-Weight
+  --font-thin-normal: 300;
   --font-normal: 400;
   --font-medium: 500;
   --font-semi-bold: 600;
@@ -108,14 +113,15 @@
 //Buttons
 .button {
   display: inline-block;
-  background-color: var(--title-color);
+  background-color: var(--primary-color);
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  transition: 0.4s;
 
   &:hover {
-    background-color: var(--title-color-dark);
+    background-color: var(--primary-color-dark);
   }
 
   &__icon {
@@ -142,6 +148,7 @@
     &__icon {
       width: 22px;
       height: 22px;
+      line-height: 23px;
     }
   }
 }

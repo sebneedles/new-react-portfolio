@@ -2,13 +2,6 @@
   overflow-y: hidden;
 }
 
-// .btn-modal {
-//   padding: 10px 20px;
-//   display: block;
-//   margin: 100px auto 0;
-//   font-size: 18px;
-// }
-
 .modal {
   position: relative;
   background-color: var(--container-color);
@@ -23,7 +16,7 @@
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     z-index: var(--z-modal);
     opacity: 1;
     visibility: visible;
@@ -34,76 +27,92 @@
       left: 50%;
       transform: translate(-50%, -50%);
       line-height: 1.4;
-      background: #f1f1f1;
+      background: #ffffff;
       padding: 14px 28px;
-      border-radius: 3px;
-      max-width: 900px;
+      max-width: 700px;
       min-width: 300px;
       border-radius: 1.5rem;
 
       .modal__title-gpe {
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin-top: var(--mt-2);
-        margin-bottom: var(--mb-1);
+        justify-content: space-between;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        padding: 1rem 0;
+        border-bottom: solid 1px rgba(0, 0, 0, 0.1);
 
-        .modal__title .modal__year .modal__separator {
-          text-align: center;
-          font-size: var(--h3-font-size);
-          font-weight: var(--font-medium);
-          margin-bottom: var(--mb-1);
+        .modal__title {
+          display: flex;
+          color: var(--secondary-color);
+        }
+
+        .modal__year {
+          color: var(--secondary-color);
         }
       }
 
-      .modal__description {
-        text-align: justify;
-        font-size: var(--small-font-size);
-        padding: 0 3.5rem;
-        max-width: 500px;
-        margin: 0 auto var(--mb-1) auto;
-      }
+      .modal__details {
+        padding: 0 0 1rem 0;
 
-      .modal__infos {
-        font-size: var(--tiny-font-size);
-        padding: 0 3.5rem;
-        text-align: justify;
-        max-width: 500px;
-        margin: 0 auto var(--mb-1) auto;
+        .modal__description {
+          font-size: var(--small-font-size);
+          padding: 0 0 1rem 0;
+        }
+
+        .modal__technos {
+          font-size: var(--small-font-size);
+          color: var(--primary-color);
+          padding: 0 0 1rem 0;
+          font-weight: var(--font-semi-bold);
+        }
+
+        .modal__url {
+          margin: 0 auto;
+          font-size: var(--smaller-font-size);
+          color: var(--text-color);
+          font-weight: var(--font-medium);
+          transition: 0.4s;
+          border-radius: 1rem;
+
+          &:hover {
+            color: var(--title-color-dark);
+          }
+        }
       }
 
       .modal__image {
-        height: 330px;
+        height: 450px;
         position: relative;
         overflow: hidden;
         border-radius: 1rem;
         border: 1px solid rgba(0, 0, 0, 0.4);
         margin-bottom: var(--mb-1);
+        width: 600px;
+        margin: 0 auto;
 
         &-img {
           max-width: 600px;
-          min-width: 300px;
-          transition: all 10s ease;
+          min-width: 240px;
+          // transition: all 10s ease;
+        }
+
+        .modal__arrow {
+          color: rgba(0, 0, 0, 0.2);
+          font-size: 50px;
+          cursor: pointer;
+          transition: 0.3s;
+
+          &:hover {
+            color: rgba(0, 0, 0, 0.5);
+          }
         }
       }
 
-      .modal__url {
-        display: flex;
-        max-width: 300px;
-        justify-content: center;
-        margin: 0 auto;
-        font-size: var(--tiny-font-size);
-        color: var(--body-color);
-        font-weight: var(--font-medium);
-        transition: 0.4s;
-        background-color: var(--title-color);
-        padding: var(--mb-0-25);
-        border-radius: 1rem;
-
-        &:hover {
-          background-color: var(--title-color-dark);
-          color: var(--text-color);
-        }
+      .modal__legend {
+        text-align: center;
+        color: var(--text-color);
+        font-size: var(--small-font-size);
+        padding-top: 1rem;
       }
 
       .close__modal {
@@ -118,39 +127,176 @@
   }
 }
 
-// .modal,
-// .overlay {
-//   width: 100%;
-//   height: 100%;
-//   top: 0;
-//   left: 0;
-//   right: 0;
-//   bottom: 0;
-//   position: fixed;
-//   z-index: var(--z-modal);
-//   transition: 0.5s;
-// }
+//Breakpoints
+//Large screens
+@media screen and (max-width: 992px) {
+}
 
-// .overlay {
-//   background-color: rgba(49, 49, 49, 0.8);
-// }
+//Medium screens
+@media screen and (max-width: 768px) {
+  .active-modal {
+  }
 
-// .modal-content {
-//   position: absolute;
-//   top: 40%;
-//   left: 50%;
-//   transform: translate(-50% -50%);
-//   line-height: 1.4;
-//   background: #f1f1f1;
-//   padding: 14px 28px;
-//   border-radius: 3px;
-//   max-width: 600px;
-//   min-width: 300px;
-// }
+  .modal {
+    &__overlay {
+      .modal__content {
+        max-width: 540px;
+        .modal__title-gpe {
+          .modal__title {
+          }
 
-// .close-modal {
-//   position: absolute;
-//   top: 10px;
-//   right: 10px;
-//   padding: 5px 7px;
-// }
+          .modal__year {
+          }
+        }
+
+        .modal__details {
+          .modal__description {
+          }
+
+          .modal__technos {
+          }
+
+          .modal__url {
+            &:hover {
+            }
+          }
+        }
+
+        .modal__image {
+          width: 485px;
+          height: 365px;
+          &-img {
+            max-width: 482px;
+          }
+
+          .modal__arrow {
+            &:hover {
+            }
+          }
+        }
+
+        .modal__legend {
+        }
+
+        .close__modal {
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .active-modal {
+  }
+
+  .modal {
+    &__overlay {
+      .modal__content {
+        max-width: 350px;
+        .modal__title-gpe {
+          .modal__title {
+          }
+
+          .modal__year {
+          }
+        }
+
+        .modal__details {
+          .modal__description {
+          }
+
+          .modal__technos {
+          }
+
+          .modal__url {
+            &:hover {
+            }
+          }
+        }
+
+        .modal__image {
+          width: 295px;
+          height: 227px;
+          &-img {
+            max-width: 300px;
+          }
+
+          .modal__arrow {
+            &:hover {
+            }
+          }
+        }
+
+        .modal__legend {
+        }
+
+        .close__modal {
+        }
+      }
+    }
+  }
+}
+
+//Small screens
+@media screen and (max-width: 350px) {
+  .active-modal {
+  }
+
+  .modal {
+    &__overlay {
+      .modal__content {
+        max-width: 300px;
+        .modal__title-gpe {
+          margin-top: 1rem;
+          margin-bottom: 0.5rem;
+          flex-direction: column;
+          padding: 0 0 0.5rem 0;
+          .modal__title {
+          }
+
+          .modal__year {
+            font-size: var(--smaller-font-size);
+          }
+        }
+
+        .modal__details {
+          padding: 0 0 0.5rem 0;
+          .modal__description {
+            font-size: var(--tiny-font-size);
+          }
+
+          .modal__technos {
+            font-size: var(--tiny-font-size);
+          }
+
+          .modal__url {
+            font-size: var(--tiny-font-size);
+            &:hover {
+            }
+          }
+        }
+
+        .modal__image {
+          width: 243px;
+          height: 184px;
+          &-img {
+            max-width: 241px;
+          }
+
+          .modal__arrow {
+            &:hover {
+            }
+          }
+        }
+
+        .modal__legend {
+          font-size: var(--tiny-font-size);
+          padding-top: 0.5rem;
+        }
+
+        .close__modal {
+        }
+      }
+    }
+  }
+}

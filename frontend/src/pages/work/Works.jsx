@@ -27,7 +27,7 @@ const Works = () => {
   };
 
   return (
-    <div>
+    <>
       <div className="work__filters">
         {projectsNav.map((item, index) => {
           return (
@@ -48,7 +48,7 @@ const Works = () => {
           return <WorkItems item={item} key={item.id} />;
         })}
       </div>
-    </div>
+    </>
   );
 };
 

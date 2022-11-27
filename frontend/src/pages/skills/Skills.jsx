@@ -2,6 +2,7 @@ import React from 'react';
 import Frontend from './Frontend';
 import Backend from './Backend';
 import Design from './Design';
+import OtherStack from './OtherStack';
 
 const Skills = () => {
   return (
@@ -13,6 +14,7 @@ const Skills = () => {
         <Frontend />
         <Backend />
         <Design />
+        <OtherStack />
       </div>
     </section>
   );

@@ -5,7 +5,7 @@
   }
 
   &__container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     align-items: center;
     column-gap: 4rem;
 
@@ -16,9 +16,10 @@
     }
     .about__data {
       .about__info {
-        grid-template-columns: repeat(3, 140px);
+        grid-template-columns: repeat(3, 220px);
         gap: 0.5rem;
         margin-bottom: var(--mb-2);
+        justify-content: center;
 
         .about__box {
           background-color: var(--container-color);
@@ -41,9 +42,15 @@
           }
         }
       }
-      .about__description {
-        padding: 0 4rem 0 0;
-        margin-bottom: var(--mb-2-5);
+      .about__info-text {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .about__description {
+          padding: 0;
+          margin-bottom: var(--mb-2-5);
+        }
       }
     }
   }

@@ -1,4 +1,6 @@
 import React from 'react';
+import MongoLogo from '../../assets/mongodb.svg';
+import FirebaseLogo from '../../assets/firebase.svg';
 
 const Backend = () => {
   return (
@@ -9,55 +11,23 @@ const Backend = () => {
         <div className="skills__group">
           {/* Data 1 */}
           <div className="skills__data">
-            <i className="fas fa-certificate"></i>
-            <div>
-              <h3 className="skills__name">PHP</h3>
-              <span className="skills__level">Débutant</span>
-            </div>
-          </div>
-
-          {/* Data 2 */}
-          <div className="skills__data">
-            <i className="fas fa-certificate"></i>
-            <div>
-              <h3 className="skills__name">MySQL</h3>
-              <span className="skills__level">Débutant</span>
-            </div>
-          </div>
-          {/* Data 3 */}
-          <div className="skills__data">
-            <i className="fas fa-certificate"></i>
+            <i className="fab fa-node-js"></i>
             <div>
               <h3 className="skills__name">Node JS</h3>
-              <span className="skills__level">Débutant</span>
             </div>
           </div>
-        </div>
-
-        {/* Groupe 2 */}
-        <div className="skills__group">
-          {/* Data 4 */}
+          {/* Data 2 */}
           <div className="skills__data">
-            <i className="fas fa-certificate"></i>
-            <div>
-              <h3 className="skills__name">Express JS</h3>
-              <span className="skills__level">Débutant</span>
-            </div>
-          </div>
-          {/* Data 5 */}
-          <div className="skills__data">
-            <i className="fas fa-certificate"></i>
+            <img src={MongoLogo} alt="MongoDB" className="mongo" />
             <div>
               <h3 className="skills__name">MongoDB</h3>
-              <span className="skills__level">Débutant</span>
             </div>
           </div>
           {/* Data 6 */}
           <div className="skills__data">
-            <i className="fas fa-certificate"></i>
+            <img src={FirebaseLogo} alt="Firebase" className="firebase" />
             <div>
               <h3 className="skills__name">Firebase</h3>
-              <span className="skills__level">Débutant</span>
             </div>
           </div>
         </div>
