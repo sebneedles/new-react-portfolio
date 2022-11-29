@@ -25,7 +25,7 @@ const OtherStack = () => {
           </div>
           {/* Data 3 */}
           <div className="skills__data">
-            <i class="fas fa-chart-line"></i>
+            <i className="fas fa-chart-line"></i>
             <div>
               <h3 className="skills__name">SEO / SEA</h3>
             </div>

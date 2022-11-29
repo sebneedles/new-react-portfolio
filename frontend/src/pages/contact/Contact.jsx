@@ -109,7 +109,9 @@ const Contact = () => {
               Envoyer le message{' '}
               <i className="fas fa-paper-plane button__icon"></i>
             </button>
-            {done && ' Message envoyé avec succès !'}
+            {done && (
+              <div className="text__form">Message envoyé avec succès !</div>
+            )}
           </form>
         </div>
       </div>

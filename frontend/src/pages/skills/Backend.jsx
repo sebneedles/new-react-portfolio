@@ -33,7 +33,7 @@ const Backend = () => {
           </div>
           {/* Data 4 */}
           <div className="skills__data">
-            <i class="fa-brands fa-php"></i>
+            <i className="fa-brands fa-php"></i>
             <div>
               <h3 className="skills__name">PHP</h3>
             </div>

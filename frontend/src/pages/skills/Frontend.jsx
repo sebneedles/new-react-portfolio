@@ -31,7 +31,7 @@ const Frontend = () => {
           </div>
           {/* Data 4 */}
           <div className="skills__data">
-            <i class="fa-brands fa-wordpress"></i>
+            <i className="fa-brands fa-wordpress"></i>
             <div>
               <h3 className="skills__name">Wordpress</h3>
             </div>
@@ -63,7 +63,7 @@ const Frontend = () => {
           </div>
           {/* Data 8 */}
           <div className="skills__data">
-            <i class="fa-brands fa-bootstrap"></i>
+            <i className="fa-brands fa-bootstrap"></i>
             <div>
               <h3 className="skills__name">Bootstrap</h3>
             </div>
