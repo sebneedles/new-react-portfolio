@@ -29,29 +29,43 @@ const Frontend = () => {
               <h3 className="skills__name">Sass</h3>
             </div>
           </div>
+          {/* Data 4 */}
+          <div className="skills__data">
+            <i class="fa-brands fa-wordpress"></i>
+            <div>
+              <h3 className="skills__name">Wordpress</h3>
+            </div>
+          </div>
         </div>
 
         {/* Groupe 2 */}
         <div className="skills__group">
-          {/* Data 4 */}
+          {/* Data 5 */}
           <div className="skills__data">
             <i className="fab fa-js"></i>
             <div>
               <h3 className="skills__name">Javascript</h3>
             </div>
           </div>
-          {/* Data 5 */}
+          {/* Data 6 */}
           <div className="skills__data">
             <i className="fab fa-react"></i>
             <div>
               <h3 className="skills__name">React</h3>
             </div>
           </div>
-          {/* Data 6 */}
+          {/* Data 7 */}
           <div className="skills__data">
             <i className="fab fa-git-alt"></i>
             <div>
               <h3 className="skills__name">Git</h3>
+            </div>
+          </div>
+          {/* Data 8 */}
+          <div className="skills__data">
+            <i class="fa-brands fa-bootstrap"></i>
+            <div>
+              <h3 className="skills__name">Bootstrap</h3>
             </div>
           </div>
         </div>

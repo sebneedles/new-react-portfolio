@@ -18,7 +18,9 @@ const OtherStack = () => {
           <div className="skills__data">
             <i className="fab fa-google"></i>
             <div>
-              <h3 className="skills__name">Outils Google</h3>
+              <h3 className="skills__name">
+                Analytics, Ads, Search Console, Tag Manager
+              </h3>
             </div>
           </div>
           {/* Data 3 */}

@@ -49,8 +49,8 @@
   border-radius: 0.3rem;
   padding: 0.13rem;
   display: flex;
-  height: 30px;
-  line-height: 25px;
+  height: 32px;
+  line-height: 27px;
   font-size: 24px;
   font-weight: 600;
 }
@@ -83,8 +83,8 @@
   border-radius: 0.3rem;
   padding: 0.18rem;
   display: flex;
-  height: 30px;
-  line-height: 25px;
+  height: 32px;
+  line-height: 27px;
   font-size: 20px;
   font-weight: 600;
 }
@@ -110,15 +110,27 @@
 }
 
 .mongo {
-  width: 50px;
+  width: 14px;
 }
 
 .firebase {
-  width: 25px;
+  width: 24px;
 }
 
 .affinity {
   width: 34px;
+}
+
+.fa-wordpress:before {
+  color: #21759b;
+}
+
+.fa-bootstrap:before {
+  color: #563d7c;
+}
+
+.fa-php:before {
+  color: #8993be;
 }
 
 // ABOUT SECTION

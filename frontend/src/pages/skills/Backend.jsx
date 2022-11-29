@@ -1,4 +1,5 @@
 import React from 'react';
+// import MongoLogo from '../../assets/mongodb.svg';
 import MongoLogo from '../../assets/mongodb.svg';
 import FirebaseLogo from '../../assets/firebase.svg';
 
@@ -23,11 +24,18 @@ const Backend = () => {
               <h3 className="skills__name">MongoDB</h3>
             </div>
           </div>
-          {/* Data 6 */}
+          {/* Data 3 */}
           <div className="skills__data">
             <img src={FirebaseLogo} alt="Firebase" className="firebase" />
             <div>
               <h3 className="skills__name">Firebase</h3>
+            </div>
+          </div>
+          {/* Data 4 */}
+          <div className="skills__data">
+            <i class="fa-brands fa-php"></i>
+            <div>
+              <h3 className="skills__name">PHP</h3>
             </div>
           </div>
         </div>

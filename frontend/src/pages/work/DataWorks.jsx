@@ -110,7 +110,7 @@ export const projectsData = [
     category: 'web',
     year: '2022',
     description:
-      "Projet de formation OpenCLassrooms : Construction d'une API sécurisée, développement backend, mise en oeuvre des opérations CRUD de manières sécurisée, implémentation d'un modèle logique, stockage des données de manière sécurisée, gestion des événnements like/dislike",
+      "Projet de formation OpenCLassrooms : Développement Backend, Mise en place d'une API REST CRUD, BDD et stockage sécurisé sous Mongo, implémentation d'un modèle de données User et Produit, mise en place de l'auth/autorization, gestion des événnements like/dislike",
     technos: 'NodeJS / ExpressJS / Javascript / MongoDB',
     legende: [
       "Page d'accueil une fois la connexion réussie",
