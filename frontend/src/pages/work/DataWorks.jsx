@@ -10,6 +10,7 @@ import Web9 from '../../assets/portfolio/web/ohmyfood-website.png';
 import Web10 from '../../assets/portfolio/web/panthere-website.png';
 import Web11 from '../../assets/portfolio/web/kasa-website.png';
 import Web12 from '../../assets/portfolio/web/boutika.jpg';
+import Web13 from '../../assets/portfolio/web/dashboard.jpg';
 import Social1 from '../../assets/portfolio/social/202012-voeux.jpg';
 import Print1 from '../../assets/portfolio/print/catalogue-aplus.jpg';
 import Print2 from '../../assets/portfolio/print/mk-large.jpg';
@@ -64,8 +65,22 @@ import WebBoutika2 from '../../assets/portfolio-max/web/boutika-2.jpg';
 import WebBoutika3 from '../../assets/portfolio-max/web/boutika-3.jpg';
 import WebBoutika4 from '../../assets/portfolio-max/web/boutika-4.jpg';
 import WebBoutika5 from '../../assets/portfolio-max/web/boutika-5.jpg';
+import WebDashboard1 from '../../assets/portfolio-max/web/dashboard-1.jpg';
+import WebDashboard2 from '../../assets/portfolio-max/web/dashboard-2.jpg';
 
 export const projectsData = [
+  {
+    id: 'dashboard',
+    image: Web13,
+    title: 'Dashboard',
+    category: 'web',
+    year: '2023',
+    description: "Création d'un dashboard en reactJS",
+    technos: 'React / React Router / Javascript / useState',
+    legende: ["Page d'accueil du dashboard", 'Version responsive'],
+    picture: [WebDashboard1, WebDashboard2],
+    url: 'https://dashboard-f41fc.web.app/',
+  },
   {
     id: 'boutika',
     image: Web12,
