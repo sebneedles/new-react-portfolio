@@ -9,8 +9,9 @@ import Web8 from '../../assets/portfolio/web/kanap-website.png';
 import Web9 from '../../assets/portfolio/web/ohmyfood-website.png';
 import Web10 from '../../assets/portfolio/web/panthere-website.png';
 import Web11 from '../../assets/portfolio/web/kasa-website.png';
-import Web12 from '../../assets/portfolio/web/boutika.jpg';
+import Web12 from '../../assets/portfolio/web/thefrenchstore.jpg';
 import Web13 from '../../assets/portfolio/web/dashboard.jpg';
+import Web14 from '../../assets/portfolio/web/sova.jpg';
 import Social1 from '../../assets/portfolio/social/202012-voeux.jpg';
 import Print1 from '../../assets/portfolio/print/catalogue-aplus.jpg';
 import Print2 from '../../assets/portfolio/print/mk-large.jpg';
@@ -60,15 +61,38 @@ import WebFood1 from '../../assets/portfolio-max/web/ohmyfood-1.jpg';
 import WebFood2 from '../../assets/portfolio-max/web/ohmyfood-2.jpg';
 import WebBooki1 from '../../assets/portfolio-max/web/booki-1.jpg';
 import WebBooki2 from '../../assets/portfolio-max/web/booki-2.jpg';
-import WebBoutika1 from '../../assets/portfolio-max/web/boutika-1.jpg';
-import WebBoutika2 from '../../assets/portfolio-max/web/boutika-2.jpg';
-import WebBoutika3 from '../../assets/portfolio-max/web/boutika-3.jpg';
-import WebBoutika4 from '../../assets/portfolio-max/web/boutika-4.jpg';
-import WebBoutika5 from '../../assets/portfolio-max/web/boutika-5.jpg';
+import FrenchStore1 from '../../assets/portfolio-max/web/frenchstore-1.jpg';
+import FrenchStore2 from '../../assets/portfolio-max/web/frenchstore-2.jpg';
+import FrenchStore3 from '../../assets/portfolio-max/web/frenchstore-3.jpg';
+import FrenchStore4 from '../../assets/portfolio-max/web/frenchstore-4.jpg';
+import FrenchStore5 from '../../assets/portfolio-max/web/frenchstore-5.jpg';
 import WebDashboard1 from '../../assets/portfolio-max/web/dashboard-1.jpg';
 import WebDashboard2 from '../../assets/portfolio-max/web/dashboard-2.jpg';
+import SovaApp1 from '../../assets/portfolio-max/web/sova-1.jpg';
+import SovaApp2 from '../../assets/portfolio-max/web/sova-2.jpg';
+import SovaApp3 from '../../assets/portfolio-max/web/sova-3.jpg';
+import SovaApp4 from '../../assets/portfolio-max/web/sova-4.jpg';
 
 export const projectsData = [
+  {
+    id: 'sova',
+    image: Web14,
+    title: 'Sova App',
+    category: 'web',
+    year: '2023',
+    description:
+      "Intégration front-end d'une maquette Figma. Gestion de l'authentification sur Firebase.",
+    technos:
+      'React / React Router / useState / useEffect / Javascript / Firebase',
+    legende: [
+      "Page d'accueil de l'application",
+      'Page de connexion',
+      "Page d'inscription",
+      'Page du profil utilisateur',
+    ],
+    picture: [SovaApp1, SovaApp2, SovaApp3, SovaApp4],
+    url: 'https://sova-auth-app.web.app/',
+  },
   {
     id: 'dashboard',
     image: Web13,
@@ -82,23 +106,30 @@ export const projectsData = [
     url: 'https://dashboard-f41fc.web.app/',
   },
   {
-    id: 'boutika',
+    id: 'frenchstore',
     image: Web12,
-    title: 'Boutika (projet en cours)',
+    title: 'TheFrenchStore (projet en cours)',
     category: 'web',
-    year: '2022',
+    year: '2023',
     description:
-      "Projet en cours de réalisation, site E-commerce développé en react pour la partie frontend. Pour la partie backend j'utilise MongoDB, ExpressJS, NodeJS, Javascript, CRUD.",
+      "Projet en cours de réalisation, site E-commerce développé en react pour la partie frontend. Pour le backend, j'utilise un headless CMS comme Strapi.",
     technos:
-      'React / React Router / Axios / SASS / ExpressJS / MongoDB / Javascript / NodeJS',
+      'React / React Router / { useState, useEffect, customHook } / react-redux / @mui/icons-material / Strapi',
     legende: [
-      "Page d'accueil de l'application E-commerce",
+      "Page d'accueil",
+      'Affichage des catégories de produits en grid css',
+      'Item Panier accessible depuis la navigation',
+      'Page de catégorie de produits',
       'Page produit',
-      'Page Shopping Cart',
-      'Page de connexion',
-      'Page de crétion de compte',
     ],
-    picture: [WebBoutika1, WebBoutika2, WebBoutika3, WebBoutika4, WebBoutika5],
+    picture: [
+      FrenchStore1,
+      FrenchStore2,
+      FrenchStore3,
+      FrenchStore4,
+      FrenchStore5,
+    ],
+    url: 'https://github.com/sebneedles/shop',
   },
   {
     id: 'kasaoc',

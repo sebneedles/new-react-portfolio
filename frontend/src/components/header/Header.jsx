@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Logo from '../../assets/logo.png';
-import CV from '../../assets/cv-sebastien-pansini.pdf';
+// import CV from '../../assets/cv-sebastien-pansini.pdf';
 
 const Header = () => {
   //    Change Background Header
