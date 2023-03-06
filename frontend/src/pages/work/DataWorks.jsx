@@ -139,7 +139,7 @@ export const projectsData = [
     year: '2022',
     description:
       "Projet de formation OpenCLassrooms : Développement des éléments d'une interface web en composants React, navigation des pages avec React Router.",
-    technos: 'React / React Router / SASS',
+    technos: 'React / React Router / useState / SASS',
     legende: [
       "Page d'accueil de l'application",
       "Page type d'un logement => composant collapse réutilisable",
@@ -147,7 +147,7 @@ export const projectsData = [
       "Page d'erreur 404",
     ],
     picture: [WebKasa1, WebKasa2, WebKasa3, WebKasa4],
-    url: 'https://github.com/sebneedles/projet-7-app-kasa/tree/main/kasa',
+    url: 'https://kasa-65963.web.app/',
   },
   {
     id: 'hottakesoc',

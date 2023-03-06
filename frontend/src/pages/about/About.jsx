@@ -1,6 +1,6 @@
 import React from 'react';
 // import AboutImg from '../../assets/moi.jpg';
-import CV from '../../assets/cv-sebastien-pansini.pdf';
+import CV from '../../assets/cv-sebastien-pansini-2023.pdf';
 import Info from './Info';
 
 const About = () => {
