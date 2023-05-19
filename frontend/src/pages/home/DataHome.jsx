@@ -6,10 +6,10 @@ const Data = () => {
       <h1 className="home__title">
         Sébastien Pansini <span className="home__hand">👋 </span>
       </h1>
-      <h3 className="home__subtitle">Développeur Frontend</h3>
+      <h3 className="home__subtitle">Intégrateur web</h3>
       <p className="home__description">
-        Je suis développeur frontend basé à Orgon (13), bienvenue sur mon
-        portfolio.
+        Je suis Intégrateur web et Infographiste PAO basé à Orgon (13),
+        bienvenue sur mon portfolio.
       </p>
       <a href="#portfolio" className="button button--flex">
         Voir mes projets<i className="fas fa-code button__icon"></i>

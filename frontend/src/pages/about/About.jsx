@@ -1,6 +1,6 @@
 import React from 'react';
 // import AboutImg from '../../assets/moi.jpg';
-import CV from '../../assets/cv-sebastien-pansini-2023.pdf';
+import CV from '../../assets/sebastien-pansini-cv-2023.pdf';
 import Info from './Info';
 
 const About = () => {
@@ -17,13 +17,13 @@ const About = () => {
           <div className="about__info-text">
             <p className="about__description">
               Créatif, force de propositions, sensible à la qualité graphique
-              d’un projet et au développement web, je me montre très attaché aux
-              nouvelles technologies et tendances du web. Plus de 8 ans
-              d’expérience auprès d’agences et services marketing, m’ont permis
-              d’acquérir de nouvelles compétences et une certaine rigueur dans
-              mon travail. Je viens tout juste de terminer une formation dans le
-              développement Web qui m’a permis de découvrir React ainsi qu’une
-              approche plus techniques du développement frontend.
+              d’un projet et à l’intégration web, j'ai plus de 10 ans d'actifs
+              dans diverses entreprises en tant qu'intégrateur web et
+              infographiste PAO. Aujourd'hui, je veux travailler dans une
+              entreprise qui me fera confiance et me permettra de mettre en
+              avant mes compétences acquises durant ces dernières années.
+              J’apprend au quotidien et me tiens informé des nouvelles technos
+              web et mobile pour enrichir mes connaissances en intégration web.
             </p>
             <a download="" href={CV} className="button button--flex">
               Télécharger le CV
