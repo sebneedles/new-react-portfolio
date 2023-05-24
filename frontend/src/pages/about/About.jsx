@@ -23,7 +23,7 @@ const About = () => {
               entreprise qui me fera confiance et me permettra de mettre en
               avant mes compétences acquises durant ces dernières années.
               J’apprend au quotidien et me tiens informé des nouvelles technos
-              web et mobile pour enrichir mes connaissances en intégration web.
+              web et mobile pour enrichir mes connaissances de webmaster.
             </p>
             <a download="" href={CV} className="button button--flex">
               Télécharger le CV
